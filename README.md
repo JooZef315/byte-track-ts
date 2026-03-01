@@ -1,4 +1,4 @@
-# byte-tracker-ts
+# byte-track-ts
 
 ByteTrack implementation in TypeScript for object tracking with a small, dependency-light API.
 
@@ -11,17 +11,20 @@ ByteTrack implementation in TypeScript for object tracking with a small, depende
 **Install**
 
 ```bash
-npm install github:billmyplate/node-moving-things-tracker
-```
+//npm
+npm install github:JooZef315/byte-track-ts
 
-```bash
-bun add github:billmyplate/node-moving-things-tracker
+//yarn
+yarn add github:JooZef315/byte-track-ts
+
+//bun
+bun add github:JooZef315/byte-track-ts
 ```
 
 **Quick Start**
 
 ```ts
-import { Tracker } from "tracker-ts";
+import { Tracker } from "byte-track-ts";
 
 const tracker = new Tracker({
   track_high_thresh: 0.5,

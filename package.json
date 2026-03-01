@@ -1,5 +1,5 @@
 {
-  "name": "byte-tracker-ts",
+  "name": "byte-track-ts",
   "version": "0.1.0",
   "description": "ByteTrack implementation in TypeScript for object tracking with a small, dependency-light API",
   "type": "module",
